@@ -21,7 +21,7 @@ public class FirstUITest extends Application {
         Scene scene = new Scene(vBox, 700, 600);
         Label label = new Label("Test, Test");
         label.setTextFill(Color.WHITE);
-        VBox.setMargin(label, new javafx.geometry.Insets(0, 100, 0, 300)); // Ändere die Position um 20 Pixel von oben und 50 Pixel von links
+        VBox.setMargin(label, new javafx.geometry.Insets(0, 100, 0, 300));
         label.setFont(new Font(30));
         vBox.setStyle("-fx-background-color: blue;");
         Button button = new Button("Test");
